@@ -1,0 +1,256 @@
+    body {
+        background-image: url('drivingbackground.png');
+        background-size: cover;
+        background-position: center;
+/*        height: 100vh;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+    nav {
+      background-color: black;
+      color: #fff;
+      height: 80px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+
+    nav .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      max-width: 1500px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    nav .logo {
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    nav ul.menu {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      align-items: center;
+    }
+
+    nav ul.menu li {
+      margin: 0 10px;
+    }
+
+    nav ul.menu li a {
+      font-size: 18px;
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.2s ease-in-out;
+    }
+
+    nav ul.menu li a:hover {
+      color: #007bff;
+    }
+
+    .login-signup {
+      display: flex;
+      align-items: center;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    }
+
+    .login {
+      background-color: #007bff;
+      color: #fff;
+      margin-right: 10px;
+    }
+
+    .signup {
+      background-color: #fff;
+      color: #007bff;
+      border: 2px solid #007bff;
+    }
+
+    .signup:hover {
+      background-color: #007bff;
+      color: #fff;
+    }
+.box {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0px auto;
+  margin-top: 100px;
+  width: 20%;
+  padding: 30px;
+  text-align: center;
+  margin-left: 30px;
+  float: left;
+}
+
+.sign-up-btn {
+  background-color: #4285f4;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.sign-up-btn:hover {
+  background-color: black;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+
+form {
+  text-align: left;
+}
+
+.form-group { 
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+label {
+  color: #666;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  padding: 10px;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.request-btn, .schedule-btn {
+  background-color: #4285f4;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 5px 15px;
+  transition: all 0.3s ease;
+  margin-right: 20px;
+}
+
+.request-btn:hover, .schedule-btn:hover {
+  background-color: black;
+}
+
+.safety-box {
+  background-color: #f7f7f7;
+  padding: 40px;
+  width: 65%;
+  margin-right: 20px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  float: right;
+  border-radius: 20px;
+}
+
+.safety-box h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.safety-section {
+  margin-top: 40px;
+}
+
+.safety-section h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.safety-section p, p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.ride-box {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #ccc;
+  padding: 20px;
+  width: 26%;
+  margin: 10px;
+  float: left;
+  text-align: center;
+}
+
+.ride-box:hover {
+  background-color: #4285f4;
+  color: #fff;
+
+}
+
+.confirm-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.confirm-btn:hover {
+  animation: pulse 1s infinite;
+  background-color: #fff;
+  color: #000;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+

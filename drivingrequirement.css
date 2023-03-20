@@ -1,0 +1,155 @@
+		body {
+			  /*background-image: url('drivingbackground.png');
+			  background-size: cover;
+			  background-position: center;
+			  height: 100vh;*/
+			  display: flex;
+			  flex-direction: column;
+			  justify-content: center;
+			  align-items: center;
+		}
+		nav {
+		  background-color: black;
+		  color: #fff;
+		  height: 80px;
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		}
+
+		nav .container {
+		  display: flex;
+		  align-items: center;
+		  justify-content: space-between;
+		  height: 100%;
+		  max-width: 1500px;
+		  margin: 0 auto;
+		  padding: 0 20px;
+		}
+
+		nav .logo {
+		  font-size: 30px;
+		  font-weight: bold;
+		  text-decoration: none;
+		  color: #fff;
+		}
+
+		nav ul.menu {
+		  margin: 0;
+		  padding: 0;
+		  list-style: none;
+		  display: flex;
+		  align-items: center;
+		}
+
+		nav ul.menu li {
+		  margin: 0 10px;
+		}
+
+		nav ul.menu li a {
+		  font-size: 18px;
+		  color: #fff;
+		  text-decoration: none;
+		  transition: color 0.2s ease-in-out;
+		}
+
+		nav ul.menu li a:hover {
+		  color: #007bff;
+		}
+
+		.login-signup {
+		  display: flex;
+		  align-items: center;
+		}
+
+		.btn {
+		  display: inline-block;
+		  padding: 10px 20px;
+		  border-radius: 25px;
+		  text-decoration: none;
+		  font-size: 16px;
+		  font-weight: bold;
+		  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		}
+
+		.login {
+		  background-color: #007bff;
+		  color: #fff;
+		  margin-right: 10px;
+		}
+
+		.signup {
+		  background-color: #fff;
+		  color: #007bff;
+		  border: 2px solid #007bff;
+		}
+
+		.signup:hover {
+		  background-color: #007bff;
+		  color: #fff;
+		}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+header {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 20px;
+  line-height: 1.5;
+}
