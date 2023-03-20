@@ -254,7 +254,7 @@ img {
   max-width: 90%;
   height: auto;
   margin: 0 auto;
-  border-radius: 0px;
+  border-radius: 10px;
   margin-top: 8px !important;
   box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
 }
